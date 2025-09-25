@@ -3,7 +3,7 @@ export  const creators = [
     id: 1,
     name: "AJEY NAGAR",
     realName: "carryminati",
-    image:"/creators photos/1. AJEY NAGAR.jpg",
+    image:"/creators photos/1. AJEY NAGAR.png",
     subscribers: "40.5M",
     genre: "Comedy, Roasting",
     trivia: "He made his acting debut with a cameo in the 2022 film Runway 34.",
@@ -14,7 +14,7 @@ export  const creators = [
     name: "BHUVAN BAM",
     realName: "BBKiVines ",
     subscribers: "42.5M",
-    image:"/creators photos/2. BHUVAN BAM.jpg",
+    image:"/creators photos/2. BHUVAN BAM.png",
     genre: "Gaming (Free Fire)",
     trivia: "When Bam uploaded his first video on his channel, BB Ki Vines, he was simply testing the video quality on his phone.",
     desc: "Long before becoming one of India’s most influential digital entertainers, Bam was a musician performing in Delhi restaurants, with no intention of creating YouTube videos. But in 2015, he was irked by a question that a reporter asked a flood victim on TV. Impulsively, Bam made a satirical video mocking insensitive reportage in India. It went viral. He went on to become the first Indian YouTuber to have 2 million subscribers on his channel ‘BB Ki Vines’ (currently over 26 million subscribers) and launched a web series, Dhindora, in 2021. And now, he’s stepping into Bollywood with Kuku Ki Kundali, a romantic comedy backed by Dharma Productions."
@@ -34,7 +34,7 @@ export  const creators = [
     name: "DHRUV RATHEE",
     realName: "dhruvrathee",
     subscribers: "24.4M",
-    image:"/creators photos/4. DHRUV RATHEE.JPG",
+    image:"/creators photos/4. DHRUV RATHEE 1.png",
     genre: "Comedy, Relatable content",
     trivia: "Long before becoming a digital voice, Rathee worked with organisations such as Greenpeace and WWF, leading environmental campaigns on plastic pollution and biodiversity.",
     desc: "Rathee, who is based in Germany, grew to fame on YouTube for his videos that broke down complex political and cultural issues into simple, brief, insightful explainers. His videos feature his now-signature incisive and sometimes almost brave takes on Indian politics. Rathee received YouTube’s diamond play button in 2023 and was also included in TIME Magazine’s Next Generation Leaders list the same year, for his work in fact-checking. He currently has 29.6 million subscribers on YouTube and counting."
@@ -44,7 +44,7 @@ export  const creators = [
     name: "JANNAT ZUBAIR RAHMANI",
     realName: "jannatzubair29",
     subscribers: "39.7M",
-    image:"/creators photos/5. JANNAT ZUBAIR RAHMANI.JPG",
+    image:"/creators photos/5. JANNAT ZUBAIR RAHMANI 1.png",
     genre: "Gaming (GTA V, Minecraft)",
     trivia: "She started her career as a child actor in shows such as Chand Ke Paar Chalo (2008) and Kashi – Ab Na Rahe Tera Kagaz Kora (2010).",
     desc: "Rahmani’s growth has been multifold since beginning her career as a child actor. She quickly became a significant teen influencer in India and was featured in the Forbes India 30 Under 30 list in 2021, when she was just 19 years old. Rahmani, who posts regularly about fashion, beauty, and music to her 50.2 million followers on Instagram, has also been seen in Hindi films such as Luv Ka The End (2011) and Hichki (2018) as well as appearing ona reality TV shows, such as Prime Video’s popular series The Traitors India (2025)."

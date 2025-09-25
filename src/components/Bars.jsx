@@ -3,19 +3,18 @@
 // const Bars = ({activeIndex,onBarClick}) => {
 //      const bars = Array.from({ length: creators.length });
 
-
 //   return (
 //       <div className="bars-wrapper">
 //       {bars.map((_, i) => {
 //          const isTall = i % 4 === 0;
 //         const isActive = i <= activeIndex;
 //         return (
-       
+
 //          <div
 //             key={i}
 //             className={`bar-wrapper ${isTall ? "tall" : "short"}`}
 //             onClick={() => onBarClick(i)}
-            
+
 //           >
 //             <div
 //               className={`bar ${isActive ? "active" : ""}`}
@@ -47,19 +46,22 @@ const Bars = ({ activeIndex, onBarClick }) => {
     <div className="bars-wrapper">
       {bars.map((_, i) => {
         const isTall = i % 4 === 0;
-        const isActive = i <= activeIndex;
+        const isActive = activeIndex !== -1 && i <= activeIndex;
         const isLabelVisible = i === activeIndex; // Only show label for current active index
 
         return (
           <div
             key={i}
-            className={`bar-wrapper ${isTall ? "tall" : "short"}`}
+            className={`bar-wrapper ${isTall ? "tall" : "short"} ${
+              isLabelVisible ? "active" : ""
+            }`}
             onClick={() => onBarClick(i)}
           >
             <div
               className={`bar ${isActive ? "active" : ""}`}
               style={{
                 height: isTall ? "70px" : "40px",
+                width: isLabelVisible ? "4px" : "2px",
                 backgroundColor: isActive ? "#fff" : "red",
                 transition: "background-color 0.3s ease",
                 cursor: "pointer",
@@ -69,10 +71,10 @@ const Bars = ({ activeIndex, onBarClick }) => {
             {/* Only active index has visible label */}
             <div
               className="bar-label"
-              style={{
-                opacity: isLabelVisible ? 1 : 0,
-                transition: "opacity 0.3s ease",
-              }}
+              //   style={{
+              //     opacity: isLabelVisible ? 1 : 0,
+              //     transition: "opacity 0.3s ease",
+              //   }}
             >
               {i + 1}
             </div>
