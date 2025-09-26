@@ -63,7 +63,7 @@ const Bars = ({ activeIndex, onBarClick }) => {
                 height: isTall ? "70px" : "40px",
                 width: isLabelVisible ? "4px" : "2px",
                 backgroundColor: isActive ? "#fff" : "red",
-                transition: "background-color 0.3s ease",
+                transition: "all 0.3s ease",
                 cursor: "pointer",
               }}
             ></div>
